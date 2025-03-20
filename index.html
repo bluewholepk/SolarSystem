@@ -6,6 +6,13 @@
     <link rel="stylesheet" href="scoler.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Solar System</title>
+         <!-- fontaweseme -->
+      <!-- <script defer src="https://kit.fontawesome.com/d93fbcf759.js" crossorigin="anonymous"></script> -->
+      <script src="https://kit.fontawesome.com/d93fbcf759.js" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap Icons CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+
   </head>
   <body>
     
@@ -38,7 +45,20 @@
       </div>
     </div>
     <footer>
-        <p style="text-align: center"> Copyright &copy; 2023-<script>document.write(new Date().getFullYear())</script> BlueWholePk All Rights Reserved</p>
+      <p class="contact-message">Follow us:
+        <a class="footer-link" href="https://www.linkedin.com/in/prashant-david-b755a717b/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a class="footer-link" href="https://twitter.com/BlueWholePk" target="_blank"><i class="fab fa-twitter" ></i></a>
+        <a class="footer-link" href="https://www.facebook.com/prashantkr00" target="_blank"><i class="fab fa-facebook"></i></a>
+        <!-- <a class="footer-link" href="https://www.instagram.com/bluewholepk" target="_blank"> <i class="fab fa-instagram"></i> </a><br></p> -->
+        <a class="footer-link" href="https://github.com/bluewholepk" target="_blank"><i class="bi bi-github"></i></a>
+        <a class="footer-link" href="https://www.instagram.com/bluewholepk" target="_blank"><i class="fab fa-instagram"></i></a><br></p>
+
+       
+      <p class="copyright">Copyright &copy; 2021 - <span id="year"></span> BlueWholePk. All Rights Reserved.</p>
+      <script>
+        // Automatically update the year
+        document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
     </footer>
     
   </body>
